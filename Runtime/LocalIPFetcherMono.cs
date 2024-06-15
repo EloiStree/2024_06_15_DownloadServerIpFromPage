@@ -7,8 +7,9 @@ using UnityEngine.Events;
 public class LocalIPFetcher : MonoBehaviour
 {
     public List<string> m_localIpFound;
-    public UnityEvent<string[]> m_onLocalIpFound = new UnityEvent<string[]>();
-
+    public string m_stringViewSpliter = ", ";
+    public UnityEvent<string[]> m_onLocalIpFound ;
+    public UnityEvent<string> m_onLocalIpFoundAsString;
     private void Start()
     {
         RefreshLocalIp();
@@ -19,6 +20,8 @@ public class LocalIPFetcher : MonoBehaviour
     public void RefreshLocalIp()
     {
         m_localIpFound = GetLocalIPv4Addresses();
+        m_onLocalIpFound.Invoke(m_localIpFound.ToArray());
+        m_onLocalIpFoundAsString.Invoke(string.Join(m_stringViewSpliter, m_localIpFound.ToArray()));
     }
 
     private List<string> GetLocalIPv4Addresses()
