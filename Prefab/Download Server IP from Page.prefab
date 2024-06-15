@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7850355398686593589
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4955260571246736794}
+  - component: {fileID: 4189045687106588368}
+  - component: {fileID: 9152334138652061943}
+  m_Layer: 0
+  m_Name: Download Server IP from Page
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4955260571246736794
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7850355398686593589}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 165, y: 128, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4189045687106588368
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7850355398686593589}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a10d3c536aa14746b705cee89f5d892, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_pageURL: https://raw.githubusercontent.com/EloiStree/IP/main/DroneSoccerXR/SERVER.md
+  m_downloadContent: 81.240.94.97
+  m_onLoaded:
+    m_PersistentCalls:
+      m_Calls: []
+  m_onFail:
+    m_PersistentCalls:
+      m_Calls: []
+  m_useTrim: 1
+--- !u!114 &9152334138652061943
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7850355398686593589}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c9833c2348f0dc4c9a257d3d0149038, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_pageURL: https://raw.githubusercontent.com/EloiStree/IP/main/DroneSoccerXR/SERVER.md
+  m_downloadContent: 81.240.94.97
+  m_onLoaded:
+    m_PersistentCalls:
+      m_Calls: []
+  m_onFail:
+    m_PersistentCalls:
+      m_Calls: []
+  m_useTrim: 1
+  m_ipFound: 81.240.94.97
+  m_portFound: 0
+  m_onIpFound:
+    m_PersistentCalls:
+      m_Calls: []
+  m_onPortFound:
+    m_PersistentCalls:
+      m_Calls: []

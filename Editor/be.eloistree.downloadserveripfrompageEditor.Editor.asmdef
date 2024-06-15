@@ -1,0 +1,16 @@
+
+{                                                                   
+            "name": "be.eloistree.downloadserveripfrompageEditor",          
+    "references": ["be.eloistree.downloadserveripfrompage"
+],                                                              
+    "optionalUnityReferences": [],                                  
+    "includePlatforms": [                                           
+        "Editor"                                                    
+    ],                                                              
+    "excludePlatforms": [],                                         
+    "allowUnsafeCode": false,                                       
+    "overrideReferences": false,                                    
+    "precompiledReferences": [],                                    
+    "autoReferenced": true,                                         
+    "defineConstraints": []                                         
+}                                                                   
