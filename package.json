@@ -1,6 +1,6 @@
 
 {                                                                                
-  "name": "be.eloistree.downloadserveripfrompage",                              
+  "name": "be.elab.downloadserveripfrompage",                              
   "displayName": "Fetch IP and PORT from web page",                        
   "version": "0.0.1",                         
   "unity": "2018.1",                             
@@ -9,11 +9,18 @@
   "keywords": ["Script","Tool"],                       
   "dependencies":{},     
   "relatedPackages":{},     
-  "samples" : [],     
-  "author" : {
-"name":"Eloi Stree",
-"mail":"",
-"url":""},     
+ "samples": [
+    {
+      "displayName": "Demo Scene",
+      "description": "A sample scene that demonstrates the features of this package.",
+      "path": "Scene/Demo"
+    }
+  ],
+  "author": {
+    "name": "Eloi Stree",
+    "mail": "",
+    "url": "https://github.com/EloiStree/"
+  },    
   "repository":{
 "type":"Git",
 "url":"https://github.com/EloiStree/2024_06_15_DownloadServerIpFromPage.git",

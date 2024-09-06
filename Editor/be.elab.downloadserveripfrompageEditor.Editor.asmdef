@@ -1,10 +1,12 @@
 
 {                                                                   
-            "name": "be.eloistree.downloadserveripfrompage",          
-    "references": [
+            "name": "be.elab.downloadserveripfrompageEditor",          
+    "references": ["be.elab.downloadserveripfrompage"
 ],                                                              
     "optionalUnityReferences": [],                                  
-    "includePlatforms": [],                                                  
+    "includePlatforms": [                                           
+        "Editor"                                                    
+    ],                                                              
     "excludePlatforms": [],                                         
     "allowUnsafeCode": false,                                       
     "overrideReferences": false,                                    
